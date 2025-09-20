@@ -1,0 +1,104 @@
+/* Заголовок */
+#page-header {
+    text-align: center;
+    background-color: #4caf50; 
+    color: white;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+/* Table */
+table {
+    width: 100%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+th {
+    background-color: green;
+    color: white;
+    padding: 10px;
+    border: 1px solid #333;
+}
+
+td {
+    border: 1px solid #333;
+    padding: 10px;
+}
+
+/* nth child */
+tbody tr:nth-child(even) {
+    background-color: #f2fff2; 
+}
+tbody tr:nth-child(odd) {
+    background-color: #ffffff;
+}
+
+/* Подсветка строки */
+.highlight-row {
+    background-color: #d1ffd1 !important;
+}
+
+/* Отступ между таблицей и формой */
+.space {
+    margin: 50px 0;
+}
+
+/* form */
+#feedback-form {
+    width: 50%;
+    margin: 0 auto;
+    background-color: #e6ccff; /* сиреневый */
+    padding: 20px;
+    border-radius: 12px;
+}
+
+#feedback-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Этикетки */
+#feedback-form label {
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* Поля ввода и select */
+#feedback-form input,
+#feedback-form select,
+#feedback-form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #aaa;
+    border-radius: 6px;
+}
+
+/* radio buttons */
+#feedback-form p {
+    font-weight: bold;
+}
+#feedback-form input[type="radio"] {
+    width: auto;
+    margin-right: 5px;
+}
+
+/* button */
+#feedback-form button {
+    background-color: purple;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 100%;
+}
+
+#feedback-form button:hover {
+    background-color: darkviolet;
+}
