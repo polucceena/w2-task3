@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Students Grades</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Заголовок -->
+    <header id="page-header">
+        <h1>STUDENT'S GRADE</h1>
+    </header>
+
+    <!-- Table -->
+    <table>
+        <thead>
+            <tr>
+                <th>Students Name</th>
+                <th>Students ID</th>
+                <th>Course</th>
+                <th>Grade</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Aidar</td>
+                <td>001</td>
+                <td>Math</td>
+                <td>A</td>
+            </tr>
+            <tr class="highlight-row">
+                <td>Sabina</td>
+                <td>002</td>
+                <td>Physics</td>
+                <td>B</td>
+            </tr>
+            <tr>
+                <td>Arman</td>
+                <td>003</td>
+                <td>History</td>
+                <td>C</td>
+            </tr>
+            <tr class="highlight-row">
+                <td>Aigerim</td>
+                <td>004</td>
+                <td>Biology</td>
+                <td>A</td>
+            </tr>
+        </tbody>
+    </table>
+
+
+    <div class="space"></div>
+
+    <!-- formm -->
+    <form id="feedback-form">
+        <h2>Feedback form</h2>
+
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">e-mail:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="role">Your Role:</label>
+        <select id="role" name="role">
+            <option>student</option>
+            <option>lecturer</option>
+            <option>other</option>
+        </select>
+
+        <p>Would you like to receive newsletters?</p>
+        <label><input type="radio" name="newsletter" value="yes"> YES</label>
+        <label><input type="radio" name="newsletter" value="no"> NO</label>
+
+        <label for="comments">Comments:</label>
+        <textarea id="comments" name="comments" rows="4"></textarea>
+
+        <button type="submit">Send</button>
+    </form>
+
+</body>
+</html>
